@@ -41,7 +41,6 @@ class Program
     }
     private static void ChangeFruit( string fruit)
     {
-        //could we change the string at that location in memory
         fruit = "Orange";
         Console.WriteLine($"The fruit inside ChangeFruit after the operation: {fruit}");
     }
